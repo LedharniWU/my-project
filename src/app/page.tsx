@@ -1,5 +1,10 @@
+import NonDivisibleSumCalculator from "./components/NonDivisibleSumCalculator";
+
+
 export default function Home() {
   return (
-    <main></main>
+    <main>
+      <NonDivisibleSumCalculator/>
+    </main>
   );
 }
